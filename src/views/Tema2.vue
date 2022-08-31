@@ -32,7 +32,7 @@
               .h5.mb-2 Contacto
               p Información de contacto: indique el nombre de la persona de contacto, número de teléfono, dirección de correo electrónico y el nombre completo de la empresa en cuestión. 
     .row
-      .col-lg-3
+      .col-lg-4
         .row.t2
           .col-lg-7
             h3.mt-2 Tipos y formatos 

@@ -264,19 +264,19 @@ export default {
       },
       {
         nombre: 'José Francisco Charà Carrero',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Regional Norte de Santander - Centro de la Industria, la Empresa y Los Servicios.',
       },
       {
         nombre: 'Giovanna Andrea Escobar',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro:
           'Regional Norte de Santander - Centro de la Industria, la Empresa y Los Servicios.',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Asesora Metodológica',
+        cargo: 'Asesora metodológica',
         centro: 'Regional Distrito Capital – Centro de Diseño y Metrología.',
       },
       {
@@ -305,13 +305,13 @@ export default {
       },
       {
         nombre: ['Daniel Polanco'],
-        cargo: 'Validación Diseño web',
+        cargo: 'Validación diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Sergio Mauricio Valencia Martinez',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -334,6 +334,12 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
+        nombre: 'Yuli Marcela Gómez Tarazona ',
+        cargo: 'Validación de contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Revisión de guión audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
@@ -352,7 +358,7 @@ export default {
       },
       {
         nombre: 'Wilson Andrés Arenales Cáceres',
-        cargo: 'Validación Ilustración',
+        cargo: 'Validación ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },

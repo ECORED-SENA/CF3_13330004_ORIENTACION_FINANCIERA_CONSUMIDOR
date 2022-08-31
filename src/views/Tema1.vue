@@ -230,7 +230,7 @@
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico1.png' alt='AvatarTop')
-        p.text-center.p-4.mb-4 Escuche con atención y sea empático
+        p.text-center.p-4.mb-4 Escuche con atención y sea empático.
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-0
           .col-7

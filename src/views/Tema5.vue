@@ -125,19 +125,19 @@
       .col-lg-4
         img(src='@/assets/curso/tema5/img5.png', alt='Texto que describa la imagen')
     .row.mt-4
-      .col-lg-4
+      .col-lg-5
         .row.t2
           .col-lg-9
             h3.mt-2.mb-0 Medios y políticas de clientes 
           .col-lg-2
-            img.imt2(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')    
+            img.imt3(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')    
     p.mt-4 Los clientes quieren que las empresas les atiendan desde las redes sociales, para lo cual deben incorporar este tipo de atenciones en el plan de negocios, incorporando, además, estas tendencias en las políticas de atención al cliente. El manejo de medios requiere de ciertos aspectos que se deben considerar, y se presentan a continuación:
     SlyderB.mb-5.mt-5(:datos="datosSlyder")
     .row.bg6
       .row
         .col-lg-4
           .row.mt-4
-            .col-lg-7
+            .col-lg-8
               .row.t2
                 .col-lg-7
                   h3.mt-2.mb-0 Competencias
