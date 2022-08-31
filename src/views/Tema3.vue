@@ -216,7 +216,7 @@
             .row.mt-4
               .col-md-6.mb-4.mb-md-0.mt-4
                 h5 Mayores tasas de retención: 
-                p.mt-4 Reconozca los talentos mas valiosos en su negocios, permita el intercambio de información fluido y centralizado entre ellos, esto aporta al trabajo en equipo, además implemente estrategias para retener a sus mejores empleados.
+                p.mt-4 Reconozca los talentos más valiosos en su negocios, permita el intercambio de información fluido y centralizado entre ellos, esto aporta al trabajo en equipo, además implemente estrategias para retener a sus mejores empleados.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema3/img7.png', alt='Texto que describa la imagen')

@@ -147,7 +147,7 @@
         .col-lg-8   
           .row.mb-5
             .col-sm-6.col-xl-6.mb-4.mb-xl-0
-              .tarjeta.tarjeta-flip.color-secundario.c1(@mouseover="indicadorTarjetaFlip = false")
+              .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
                 .indicador--hover(v-if="indicadorTarjetaFlip")
                 .tarjeta-flip__contenedor
                   .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img13.png')})`}")
@@ -161,7 +161,7 @@
                     h4.text-white.mt-5.text-center Directa
                     p.text-white.text-center.mb-5 Los competidores directos son vendedores que venden los mismos productos a la misma audiencia y compiten por el mismo mercado potencial.
             .col-sm-6.col-xl-6.mb-4.mb-xl-0
-              .tarjeta.tarjeta-flip.color-secundario.c1(@mouseover="indicadorTarjetaFlip = false")
+              .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
                 .indicador--hover(v-if="indicadorTarjetaFlip")
                 .tarjeta-flip__contenedor
                   .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img14.png')})`}")
@@ -334,4 +334,6 @@ export default {
   background-color: #F9F7EC
 .slyder__btn:hover
   background-color: #F9F7EC
+.tarjeta-flip.color-secundario .tarjeta-flip__contenido
+  background-color: #003B73!important
 </style>

@@ -56,7 +56,7 @@
             .col-lg-4
               img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
             .col-lg-8
-              p Es uno de los tipos de negociación en los que hay más de un problema que debe someterse al proceso de negociación. Ambas partes ganan algo con la negociación, es un proceso de negociación integrador queasegura una situación en la que todos ganan.
+              p Es uno de los tipos de negociación en los que hay más de un problema que debe someterse al proceso de negociación. Ambas partes ganan algo con la negociación, es un proceso de negociación integrador que asegura una situación en la que todos ganan.
               p ¿Sabe lo que sucede cuando los representantes de un sindicato de empleados se reúnen con la gerencia con sus demandas? Discuten, argumentan, presentan, oponen, convencen, etc. Luego, llegan a un acuerdo sobre salarios y otros beneficios. Esto se llama negociación integradora.
       div(titulo="Negociación multipartes")
         .col-lg-12
@@ -133,7 +133,7 @@
                 .col-lg-2
                   img.w1(src='@/assets/curso/tema2/ico4.svg', alt='Texto que describa la imagen')
                 .col-lg-10
-                  h5 Destalles del proyecto
+                  h5 Detalles del proyecto
                   p.mt-4 Dentro de este cuerpo, comenzará explicando la recomendación, solución o enfoque para atender al cliente. A medida que profundiza en la explicación, el objetivo principal será transmitir al cliente que está trayendo algo verdaderamente personalizado a su necesidad.
             .carousel-item.mt-5.mb-5
               .row.justify-content-center
@@ -156,7 +156,7 @@
                   img.w1(src='@/assets/curso/tema2/ico7.svg', alt='Texto que describa la imagen')
                 .col-lg-10
                   h5 Conclusión
-                  p.mt-4 Debe resumir la comprensión del proyecto, las soluciones propuestas y qué tipo de trabajo (y costos) están involucrados. Esta es la última oportunidad de presentar un caso convincente dentro de las propuesta, reiterar lo que se pretende hacer y por qué superar las ideas de los competidores.
+                  p.mt-4 Debe resumir la comprensión del proyecto, las soluciones propuestas y qué tipo de trabajo (y costos) están involucrados. Esta es la última oportunidad de presentar un caso convincente dentro de la propuesta, reiterar lo que se pretende hacer y por qué superar las ideas de los competidores.
                                                                                
           button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
             span.carousel-control-prev-icon(aria-hidden='true')

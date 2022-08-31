@@ -67,10 +67,19 @@
           .col-lg-11
             .row.mt-4
               .col-md-6.mb-4.mb-md-0
-                p Facilite la firma y el pago, utilice firmas digitales donde pueda y observe cómo el ciclo de ventas se acelera drásticamente. La mayoría de los programas de propuestas tienen esto incorporado, donde solo deben escribir el nombre y presionar un botón. El beneficio es que la propuesta se convierte en parte del contrato y contiene los términos, los precios y los servicios que brindará, protegiéndole a usted y a al cliente de problemas de comunicación en el futuro y mantiene la relación en terreno sólido.
+                p Facilite la firma y el pago, utilice firmas digitales donde pueda y observe cómo el ciclo de ventas se acelera drásticamente. La mayoría de los programas de propuestas tienen esto incorporado, donde solo deben escribir el nombre y presionar un botón. El beneficio es que la propuesta se convierte en parte del contrato y contiene los términos, los precios y los servicios que brindará, protegiéndole a usted y al cliente de problemas de comunicación en el futuro y mantiene la relación en terreno sólido.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema1/img7.png', alt='Texto que describa la imagen')
+        .row.justify-content-center
+          .col-lg-11
+            .row.mt-4
+              .col-md-6.mb-4.mb-md-0
+                p Incluya los términos y condiciones, mantenga siempre el contrato y los términos y condiciones como parte de la propuesta y hágalos firmar juntos, esto los une. Si los pone por separado, es posible que tenga términos genéricos en el contrato que podrían causar confusión.
+
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/img9.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-lg-11
             .row.mt-4
@@ -83,7 +92,7 @@
           .col-lg-11
             .row.mt-4
               .col-md-6.mb-4.mb-md-0
-                p Enviarlo la propuesta rápidamente es muy importante, tiene un 25% más de probabilidades de ganar el trato si envía la propuesta dentro de las primeras 24 horas. Además, si se firma, tardará en promedio cuatro días antes que si tarda solo 48 horas en enviarlo.
+                p Enviar la propuesta rápidamente es muy importante, tiene un 25% más de probabilidades de ganar el trato si envía la propuesta dentro de las primeras 24 horas. Además, si se firma, tardará en promedio cuatro días antes que si tarda solo 48 horas en enviarlo.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema1/img9.png', alt='Texto que describa la imagen')
@@ -211,7 +220,7 @@
             | Incapacidad para comprender los problemas y posiciones de la otra parte en el proceso de negociación.
           li 
             i.fas.fa-angle-right.colf
-            | Entrar en una negociación sin preparación ni información y sin tener respuestas creíbles a las preguntas formuladas
+            | Entrar en una negociación sin preparación ni información y sin tener respuestas creíbles a las preguntas formuladas.
           li 
             i.fas.fa-angle-right.colf
             | Ser de mal genio, sarcástico, carecer de habilidades para escuchar y criticar demasiado.

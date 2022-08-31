@@ -30,7 +30,7 @@
             .col-lg-4
               img(src='@/assets/curso/tema4/img3.png', alt='Texto que describa la imagen')
             .col-lg-8
-              p Si cree que ha hecho una oferta razonable, dé a su socio negociador una fecha límite para aceptarla o retírarse. Tenga en cuenta que incluso si presenta la oferta como “tómalo o déjalo”, la otra persona aún puede regresar con una contraoferta. No obstante, establecer una fecha de caducidad obliga a la otra parte a ponerse seria. Por esta razón, es una de las tácticas de negociación más efectivas y los negociadores hábiles la emplean en varias etapas de la negociación.
+              p Si cree que ha hecho una oferta razonable, dé a su socio negociador una fecha límite para aceptarla o retirarse. Tenga en cuenta que incluso si presenta la oferta como “tómalo o déjalo”, la otra persona aún puede regresar con una contraoferta. No obstante, establecer una fecha de caducidad obliga a la otra parte a ponerse seria. Por esta razón, es una de las tácticas de negociación más efectivas y los negociadores hábiles la emplean en varias etapas de la negociación.
       div(titulo="Use la duplicación para mostrar que está prestando atención")
         .col-lg-12
           .row.justify-content-center
@@ -63,10 +63,10 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/aT1ux5A-s3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Sena. (2021). Técnicas de negociación. [Video] YouTube. 
     .row
-      .col-lg-3
+      .col-lg-4
         .row.t2
           .col-lg-7
-            h3.mt-2.mb-0 Tipos y formatos 
+            h3.mt-2.mb-0 Tipos y estrategias 
           .col-lg-2
             img.imt2(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')
     p.mt-4 La negociación empresarial es un mundo de contradicciones, se tiene que ser firme pero flexible, abierto y compartido, pero un poco cauteloso. Hay mucho para entender, pero el estado de ánimo puede ser lo más importante. Se debe apuntar a un resultado mutuamente beneficioso y encontrar que todo el ejercicio es más cómodo, si se siguen estos cinco consejos ayudarán a preparar  una próxima negociación:

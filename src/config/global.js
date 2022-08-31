@@ -205,7 +205,7 @@ export default {
     {
       tema: 'Propuesta y técnicas de negociación',
       referencia:
-        'Alas-Pumariño Miranda, E. (2014). <strong>El arte de Negociar. El negociador a tiempo completo</strong>. https://docplayer.es/5958893-Enrique-de-las-alas-pumarino-miranda-el-arte-de-negociar-el-negociador-a-tiempo-completo.html',
+        'Alas-Pumariño Miranda, E. (2014). <strong>El arte de Negociar. El negociador a tiempo completo</strong>. ',
       tipo: 'Libro',
       link:
         'https://docplayer.es/5958893-Enrique-de-las-alas-pumarino-miranda-el-arte-de-negociar-el-negociador-a-tiempo-completo.html',
@@ -261,6 +261,28 @@ export default {
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'José Francisco Charà Carrero',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Norte de Santander - Centro de la Industria, la Empresa y Los Servicios.',
+      },
+      {
+        nombre: 'Giovanna Andrea Escobar',
+        cargo: 'Diseñadora Instruccional',
+        centro:
+          'Regional Norte de Santander - Centro de la Industria, la Empresa y Los Servicios.',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora Metodológica',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología.',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Corrector de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
       },
     ],
     desarrolloProducto: [
