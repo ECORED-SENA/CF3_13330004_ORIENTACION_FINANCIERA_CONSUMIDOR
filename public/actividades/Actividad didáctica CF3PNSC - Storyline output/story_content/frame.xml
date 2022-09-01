@@ -74,6 +74,7 @@
             </options>
           </option>
           <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -101,6 +102,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -124,6 +126,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -147,6 +150,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -170,6 +174,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -193,6 +198,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1146,6 +1152,7 @@
       <string id="togglezoom">Alternar los modos de zoom</string>
       <string id="closedcaptions_shortcut">Activar/Desactivar accesibilidad del texto</string>
       <string id="previous_shortcut">Diapositiva anterior</string>
+      <string id="fullscreen_shortcut">Cambiar el modo de pantalla completa</string>
       <string id="submit_shortcut">Validar diapositiva</string>
       <string id="playpause_shortcut">Reproducir / pausar</string>
       <string id="next_shortcut">Siguiente diapositiva</string>
@@ -1173,6 +1180,8 @@
       <string id="acc_volume">volumen</string>
       <string id="keyboardshortcuts_lower">Atajos de teclado</string>
       <string id="zoom_to_fit">Habilitar zoom del navegador</string>
+      <string id="acc_enter_fullscreen">Ingresar en el modo de pantalla completa</string>
+      <string id="acc_exit_fullscreen">Salir del modo de pantalla completa</string>
       <string id="accessible_text">Texto accesible</string>
       <string id="modern_video_captions_on">Activado</string>
       <string id="modern_video_captions_off">Desactivado</string>
