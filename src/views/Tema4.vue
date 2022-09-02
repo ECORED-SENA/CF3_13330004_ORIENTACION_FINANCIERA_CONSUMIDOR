@@ -120,7 +120,7 @@
     
     p.mt-3 Uno de los últimos tipos de negociación que se puede encontrar también es la negociación de “una sola vez”, en la que las partes no tienen intención de seguir trabajando juntas. Las negociaciones únicas a menudo conllevan el riesgo de un comportamiento poco ético y una negociación dura si las partes creen que no tienen la necesidad de construir una relación de confianza.
     .row
-      .col-lg-4
+      .col-lg-5
         .row.t2
           .col-lg-7
             h3.mt-2.mb-0 Métodos y estrategias 
@@ -141,7 +141,7 @@
           
           div.p-4(x="73%" y="23%" tooltip="tooltip de max 35 caracteres" )
             p.mb-0 <strong>No se quede anclado:</strong>  ser el primero en decir un número puede ser una buena manera de tomar el control de una negociación comercial. Esa primera figura a menudo se convierte en un punto de referencia para el resto de la conversación. Algunos negociadores abrirán con un número extremo, ya sea muy alto o muy bajo. Esperan que la otra parte se ancle por ello.
-            p.mb-0 Si descubre que tiene que alejar a alguien de su posición original, y eso lo hace sentir incómodo, se ha anclado. Esta puede ser una táctica de confrontación y puede que no se adapte a su estilo personal, pero, incluso si no quieres intentarlo, debes ser consciente de ello cuando alguien intente anclarte.
+            p.mb-0 Si descubre que tiene que alejar a alguien de su posición original, y eso lo hace sentir incómodo, se ha anclado. Esta puede ser una táctica de confrontación y puede que no se adapte a su estilo personal, pero, incluso si no quiere intentarlo, debe ser consciente de ello cuando alguien intente anclarlo.
           
           div.p-4(x="90%" y="50%" tooltip="tooltip de max 35 caracteres" )
             p.mb-0 <strong>Sepa dónde puede comprometerse:</strong>   como propietario de una pequeña empresa, es posible que necesite el trato más que su socio negociador. No deje que el orgullo se interponga en el camino. Decida qué necesita del trato para que valga la pena y prepárese para ceder en todo lo demás. Puede hacer esto estratégicamente.
@@ -150,7 +150,7 @@
             p.mb-0 <strong>Apunte a un ganar-ganar (sé amable):</strong>   negociar no se trata de intentar dominar a un oponente, recuerde que está tratando de encontrar un resultado rentable que beneficie a todos. Se ha demostrado científicamente que una mentalidad de ganar-ganar mejora las negociaciones comerciales. Cuando las personas cooperan, sus cerebros liberan oxitocina, una hormona que los hace confiar y compartir.
             p.mb-0 Por otro lado, una persona que pierde una negociación agresiva se siente agredida y su cerebro libera cortisol. Esto los vuelve negativos y potencialmente resentidos, lo que perjudica las posibilidades de llegar a buenos negocios, recuerde siempre que ambas partes pueden ganar y no subestimes el poder de ser amable.
           div.p-4(x="30%" y="94%" tooltip="tooltip de max 35 caracteres" )
-            p.mb-0 <strong>Tener un plan B:</strong>    tenga presenta qué hará si las negociaciones comerciales fallan. Tenga una posición fuerte y realista al respecto desde el principio. Una vez que tenga un plan B, guárdelo para usted. Si la otra parte sabe demasiado sobre sus alternativas, sabrá cuánto puede presionar.
+            p.mb-0 <strong>Tener un plan B:</strong>    tenga presente qué hará si las negociaciones comerciales fallan. Tenga una posición fuerte y realista al respecto desde el principio. Una vez que tenga un plan B, guárdelo para usted. Si la otra parte sabe demasiado sobre sus alternativas, sabrá cuánto puede presionar.
             p.mb-0 Siempre que conozca la fuerza de su posición y respete a la otra parte, tendrá un buen comienzo. 
                                
     p.mt-2 Con la práctica se mejorarán los métodos y estrategias de negociación, y después de un tiempo, negociar se convertirá en una segunda naturaleza, y los negocios serán mejores gracias a ello.
@@ -199,4 +199,15 @@ export default {
   background-color: #B7C8D6
 .tarjeta.color-primario *
   color: #12263F
+.img-infografica-b.color-primario .img-infografica-b__item__numero i
+  color: transparent
+.fa-plus:before
+  background-color: transparent
+.img-infografica-b.color-primario .img-infografica-b__item__dot:after
+  background-color: transparent
+.img-infografica-b.color-primario .img-infografica-b__item__dot:before
+  background-color: transparent
+.img-infografica__item__dot, .img-infografica-b__item__dot
+  width: 164%
+  padding-top: 161%
 </style>
