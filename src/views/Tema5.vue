@@ -32,11 +32,11 @@
             li 
               i.fas.fa-angle-right.colf
               | Reuniones efectivas.
-        .col-lg-6
+        .col-lg-6(data-aos="fade-left")
           img(src='@/assets/curso/tema5/img1.png', alt='Texto que describa la imagen')
       p.mt-3 Toda actividad organizada en una empresa se basa en el proceso de comunicación empresarial, desde la comunicación gerencial hasta la comunicación técnica con los proveedores, se debe tener presente que una vez la comunicación se vuelve poco clara, los sistemas centrales de la empresa corren el riesgo de desmoronarse, y es muy común que en las organizaciones no se midan las comunicaciones internas, para tomar acciones de forma oportuna.
     h5.text-center.mt-3 Para familiarizarse con los conceptos, le invitamos a consultar el siguiente video:
-    figure.mb-5.mt-4
+    figure.mb-5.mt-4(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/pJSpvQF2Uik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Sena. (2020). Comunicación y protocolo. [Video] YouTube
@@ -55,7 +55,7 @@
                 .tarjeta-slide__img
                   .row.justify-content-center.mt-5
                     .col-lg-10
-                      img(src='@/assets/curso/tema5/img2.svg', alt='Texto que describa la imagen')
+                      img.peq(src='@/assets/curso/tema5/img2.svg', alt='Texto que describa la imagen')
                   h4.text-center.mt-4 Comunicación ascendente
           .col-sm-6.col-xl-4.mb-4.mb-xl-0
             .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
@@ -69,7 +69,7 @@
                 .tarjeta-slide__img
                   .row.justify-content-center.mt-5
                     .col-lg-9
-                      img(src='@/assets/curso/tema5/img3.svg', alt='Texto que describa la imagen')
+                      img.peq(src='@/assets/curso/tema5/img3.svg', alt='Texto que describa la imagen')
                   h4.text-center.mt-4 Comunicación descendente
           .col-sm-6.col-xl-4.mb-4.mb-xl-0
             .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
@@ -82,7 +82,7 @@
                 .tarjeta-slide__img
                   .row.justify-content-center.mt-5
                     .col-lg-11
-                      img(src='@/assets/curso/tema5/img4.svg', alt='Texto que describa la imagen')
+                      img.peq(src='@/assets/curso/tema5/img4.svg', alt='Texto que describa la imagen')
                   h4.text-center.mt-4 Comunicación lateral          
     .row.mt-4
       .col-lg-8
@@ -122,7 +122,7 @@
           button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
             span.carousel-control-next-icon(aria-hidden='true')
             span.visually-hidden Next      
-      .col-lg-4
+      .col-lg-4.mt-2(data-aos="fade-left")
         img(src='@/assets/curso/tema5/img5.png', alt='Texto que describa la imagen')
     .row.mt-4
       .col-lg-5
@@ -175,9 +175,9 @@
                     h4.text-white.mt-5.text-center Indirecta
                     p.text-white.text-center.mb-5 Los competidores indirectos son vendedores que ofrecen productos o servicios que no son necesariamente los mismos, pero satisfacen la misma necesidad del consumidor.
     .row.mt-4
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         img(src='@/assets/curso/tema5/img15.png', alt='Texto que describa la imagen')  
-      .col-lg-8
+      .col-lg-8.mt-2
         p A diferencia de lo que parece, la sana competencia es casi tan importante como la sana demanda de un negocio, y ayuda a: 
         ul.lista-ul
           li 
@@ -317,6 +317,11 @@ export default {
   background-image: url("../assets/curso/tema2/bag1.png") !important
   background-repeat: no-repeat
   background-color: #D1E4DE
+  @media screen and ( max-width: 420px)
+    padding-left: 50px
+    padding-right: 50px
+    background-repeat: repeat
+
 .carousel-control-prev-icon
   background-image: url("../assets/curso/tema2/flecha.svg") !important
   transform: rotate(-180deg)
@@ -336,4 +341,13 @@ export default {
   background-color: #F9F7EC
 .tarjeta-flip.color-secundario .tarjeta-flip__contenido
   background-color: #003B73!important
+.tarjeta.tarjeta-slide.arriba.color-primario
+  border-radius: 0px!important
+.carousel-control-next, .carousel-control-prev
+  background-color: #FFC631
+  padding: 0px
+.carousel-inner
+  border-radius: 10px
+.tarjeta--azul
+  background-color: #C8DFD8
 </style>

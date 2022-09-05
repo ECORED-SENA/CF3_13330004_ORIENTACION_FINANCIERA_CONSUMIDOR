@@ -9,11 +9,11 @@
     .row
       .col-lg-7
         p El proceso de negociación puede realizarse utilizando diversas herramientas, la propuesta es una de ellas, y con esta se establecen los procedimientos y métodos que permitirán a las partes que negocian lograr los objetivos deseados. De esta manera se estabilizan los intereses de las partes, en pocas palabras, lo que quiere una parte y lo que quiere la otra. Una vez que se comprendan justamente los intereses a través de una comunicación eficaz debe ser plasmada en una propuesta, la cual será la base para obtener una negociación exitosa.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen')
     .row.bg1
       .row.mt-4
-        .col-lg-3
+        .col-lg-3(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen')
         .col-lg-9    
           p Ganar tantas propuestas como se pueda es vital para el crecimiento del negocio. Pero, hay que ser realistas, no se pueden ganar todas. Al mismo tiempo, hay cosas simples que se  puede hacer para aumentar las probabilidades a favor, parte del reto  es reconocer que realmente se tiene el control sobre si se cierra el trato o no, pues con una investigación adecuada y un buen enfoque de las propuestas, es probable que se obtenga más clientes, para esto es necesario que se descubra el verdadero significado de lo que se busca, antes de comenzar a escribir la propuesta, probablemente haya una reunión con el cliente por teléfono o en persona buscando averiguar la verdadera razón por la que el cliente quiere comprar. Solo cuando se haya resuelto esta razón, todo lo demás encaja en su lugar. 
@@ -28,7 +28,7 @@
               p.mb-0 La propuesta se gana y se pierde en la introducción, solo se tiene una oportunidad de causar una primera impresión y la introducción en la propuesta es una oportunidad. Por lo general, se lee correctamente y establece el tono para el resto de la propuesta. Si la introducción es un éxito, el resto es fácil.     
           p.mt-2 La mejor práctica para escribir una introducción efectiva se reduce a un simple consejo: utilizar las palabras del cliente y simplemente describir el problema que se enfrenta. ¿Recordar la parte en la que se descubrió exactamente lo que se quería? Ahora, extraer esas palabras y repetirlas al cliente que leerá la propuesta, se debe ser claro sobre lo que se está proporcionando. Solo se debe tener en cuenta que no se debe hablar de si mismo, la presentación no es el lugar para eso.
       p La propuesta comercial se caracteriza por tres P, que son: el enunciado del Problema, la solución Propuesta y el Precio, es crucial explicar claramente cómo se sugiere resolver el problema del cliente, para eso tener presente las siguientes recomendaciones:
-    .tarjeta.tarjeta--azul.p-4.mb-5.bag1
+    .tarjeta.tarjeta--azul.p-4.mb-5.bag1(data-aos="fade-down")
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-11
@@ -79,7 +79,7 @@
 
               .col-md-6
                 figure
-                  img(src='@/assets/curso/tema1/img9.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema1/1.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-lg-11
             .row.mt-4
@@ -104,15 +104,15 @@
         p Una propuesta comercial es un documento que se envía a un cliente potencial para convencerlo de que dé un trabajo o contrato en particular. Es diferente de un plan de negocios, que describe toda su idea de negocio antes de comenzar.
         p En algunos casos, un cliente presentará una solicitud de propuesta, pidiendo que se exponga por qué es la mejor empresa para el trabajo, esto se llama una propuesta comercial solicitada; en otros casos, se puede instigar el trabajo enviando una propuesta comercial no solicitada a un cliente potencial o puede ser algo intermedio entre estos dos, donde la idea surge en una conversación y el cliente pide que se envíe una propuesta.
         p Para que una propuesta comercial ayude a obtener un trabajo por el que se está ofertando, generalmente deberá incluir los aspectos claros del negocio. Sin embargo, el cliente puede haber establecido pautas claras sobre qué formato de propuesta aceptará.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')
     p.mt-4 Unos aspectos claros para tener en cuenta al momento de radicar la propuesta de negocio son:
     .row.justify-content-center.mt-4
       .col-lg-10
-        ImagenInfografica.color-acento-botones.mb-5
+        ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-up")
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema1/img13.png', alt='Texto que describa la imagen')
 
           .tarjeta.color-acento-botones.aq.p-3(x="2%" y="7%" numero="+")
             .h3.mb-2 Página de título
@@ -173,7 +173,7 @@
 
       
       
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
     .row.mt-4.bg2
       .row.justify-content-center
@@ -202,9 +202,9 @@
               p Todos los tipos de negociación conducen a una implementación efectiva. Los pasos para implementar el resultado negociado deben señalarse categóricamente. A menudo, en el contexto corporativo, se celebra un contrato por escrito para confirmar la intención de ejecución.
     p.mt-3 Existen barreras que pueden obstaculizar una buena negociación, se debe identificarlas y tomar acciones de mejora en caso de ser necesario; estas son:                                                 
     .row
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img14.png', alt='Texto que describa la imagen')
-      .col-lg-7
+      .col-lg-7.mt-3
         ul.lista-ul
           li 
             i.fas.fa-angle-right.colf
@@ -226,63 +226,57 @@
             | Ser de mal genio, sarcástico, carecer de habilidades para escuchar y criticar demasiado.
     p.mt-3 Se debe considerar la negociación como un rompecabezas que debe resolverse en lugar de una batalla que se debe ganar y así es que se debe desarrollar las siguientes habilidades:
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico1.png' alt='AvatarTop')
         p.text-center.p-4.mb-4 Escuche con atención y sea empático.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico2.png' alt='AvatarTop')
         p.text-center.p-3 Asegúrese de que la negociación sea una situación en la que todos ganen o que genere frustración.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico3.png' alt='AvatarTop')
         p.text-center.p-3 En lugar de centrarse en comprometerse, dirija sus esfuerzos para lograr su interés.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico4.png' alt='AvatarTop')
         p.text-center.p-3 Trabaje en tus habilidades sociales y habilidades de comunicación.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico5.png' alt='AvatarTop')
         p.text-center.p-3 Practique sus habilidades y estrategias de negociación con amigos y familiares.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico6.png' alt='AvatarTop')
         p.text-center.p-3.mb-5 Aprenda a aceptar los errores y a mejorarlos.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico7.png' alt='AvatarTop')
         p.text-center.p-3 Conozca su valor genuino y aprenda a decir no cuando sea necesarios.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico8.png' alt='AvatarTop')
         p.text-center.p-2 Trate la negociación como una presentación. Mejora el lenguaje corporal para que te dé una ventaja ganadora.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico9.png' alt='AvatarTop')
         p.text-center.p-2.mb-0 Sea inteligente y estratégico. Se dice que déjalos ganar la primera negociación y, por lo general, estarán lo suficientemente felices como para dejarte ganar dos o tres más.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico10.png' alt='AvatarTop')
         p.text-center.p-3 Defina sus fortalezas personales y utilícelas positivamente para impresionar y convencer.         
         .row.mb-4
-      .tarjeta.color-acento-botones.p-4.hidd
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center John Doe
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
 
 </template>
 
@@ -314,6 +308,8 @@ export default {
   border: #89AAB8
 .img-infografica__card, .img-infografica-b__card
   width: 400px
+  @media screen and ( max-width: 420px)
+    width: 100%
 .tarjeta.color-acento-botones
   background-color: #D9E2EA
 </style>

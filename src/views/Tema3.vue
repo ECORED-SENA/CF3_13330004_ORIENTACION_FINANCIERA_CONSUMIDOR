@@ -8,7 +8,7 @@
       h1 Proceso de desembolso                  
     p En el marco de las diversas operaciones o transacciones que realiza una organización en el ámbito comercial y empresarial, se encuentran los desembolsos que se pueden realizar con el objetivo de obtener bienes o servicios. En este concepto, suele ocurrir que surjan preguntas respecto a la apropiada identificación y tratamiento a otorgarles, es decir, la calificación si se denomina activo o gasto. 
       span.t1 En el siguiente video se entregan orientaciones al respecto para una mejor comprensión:
-    figure.mb-5.mt-4
+    figure.mb-5.mt-4(data-aos="fade-down")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/vZBuf77b44o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
@@ -19,12 +19,12 @@
         p Es una promesa que el emisor del pagaré hace para devolver el dinero que le entregó el prestamista. Los pagarés son la base de muchos préstamos, incluidos los préstamos comerciales para la compra de equipos e hipotecas para nuevas oficinas o fábricas. Una empresa puede incluso utilizar un pagaré para evitar malentendidos si hace un préstamo a un empleado. Si bien los pagarés pueden variar según las leyes de un estado determinado o los términos específicos del préstamo, generalmente contienen algunos elementos similares.
         .row.p-2.colt3
           p Un pagaré debe identificar claramente el emisor y al prestamista con nombres y direcciones. A veces, la nota también incluirá números de identificación, como números de identificación del empleador. Un representante de la empresa también firma el pagaré en nombre de la empresa que recibe el préstamo, formalizando la promesa de pago de la empresa. Hacer que el prestamista firme el pagaré suele ser opcional.
-      .col-lg-5   
+      .col-lg-5.mt-2(data-aos="fade-left")   
         img(src='@/assets/curso/tema3/img1.png', alt='Texto que describa la imagen')
     p.mt-4 Los requisitos generales que debe cumplir el pagaré se encuentran en el artículo 621 del código de comercio de Colombia, y son:   
     .row.justify-content-center
       .col-lg-10
-        .row.mt-4
+        .row.mt-4(data-aos="fade-down")
           .col-lg-6
             .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
@@ -40,9 +40,9 @@
                 .p-4
                   h5.text-center.mt-2 La firma de quien lo crea.
     p.mt-4 Los requisitos particulares del pagaré se encuentran en el artículo 709 del código de comercio, los cuales son:  
-    .row.mb-5
+    .row.mb-5(data-aos="fade-down")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
+        .tarjeta--boton.color-primario.p-4.sombra
           .row.justify-content-center.mb-3
             .col-6
               figure
@@ -50,7 +50,7 @@
 
           p.text-center.mt-4 La promesa incondicional de pagar una suma determinante de dinero.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
+        .tarjeta--boton.color-primario.p-4.sombra
           .row.justify-content-center.mb-3
             .col-5
               figure
@@ -60,7 +60,7 @@
           .row.mb-3
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
+        .tarjeta--boton.color-primario.p-4.sombra
           .row.justify-content-center.mb-3
             .col-5
               figure
@@ -69,7 +69,7 @@
           p.text-center.mt-5.mb-4 La indicación de ser pagadero a la orden o al portador.
           .row.mb-3
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
+        .tarjeta--boton.color-primario.p-4.sombra
           .row.justify-content-center.mb-3
             .col-5
               figure
@@ -83,9 +83,9 @@
       h2 3.2  Instrucciones y autorizaciones   
     .row.bg4
       .row
-        .col-lg-7
+        .col-lg-7(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img2.png', alt='Texto que describa la imagen')
-        .col-lg-5
+        .col-lg-5.mt-2
           p En cualquier tienda o papelería se consiguen formatos proforma como Minerva, pero se pueden hacer en un documento de Word común y corriente, imprimirlo y firmarlo. En algunos casos el pagaré debe estar acompañado de una carta de instrucciones, especialmente cuando se trata de un pagaré en blanco, donde no se coloca el valor a pagar ni la fecha de vencimiento.
           p En un pagaré se deben diligenciar los siguientes conceptos:
           ul.lista-ul
@@ -112,48 +112,43 @@
       p Un pagaré consta de varios términos y condiciones relacionados con el endeudamiento, como el monto principal a pagar, la fecha de vencimiento, la tasa de interés sobre el monto a pagar, los términos e instrucciones de pago, la fecha de emisión, el nombre y la firma del librador, nombre del librado y muchos más. No se necesita aceptación mediante un pagaré.
     h5.text-center.mt-3 Las características del pagaré son:
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.a1.p-4
+      .tarjeta.color-acento-botones.a1.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
-            img.mtn(src='@/assets/curso/tema1/ico1.png' alt='AvatarTop')
+            img.mtn(src='@/assets/curso/tema3/1.svg' alt='AvatarTop')
         p.text-center.p-4.mb-5 Es un documento legal escrito.
         .row.mb-4
-      .tarjeta.color-acento-botones.a1.p-4
+      .tarjeta.color-acento-botones.a1.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
-            img.mtn(src='@/assets/curso/tema1/ico2.png' alt='AvatarTop')
+            img.mtn(src='@/assets/curso/tema3/2.svg' alt='AvatarTop')
         p.text-center.p-3 Debe haber una promesa clara, punto a punto e incondicional de pagar una cierta cantidad a una persona específica.
-      .tarjeta.color-acento-botones.a1.p-4
+      .tarjeta.color-acento-botones.a1.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
-            img.mtn(src='@/assets/curso/tema1/ico3.png' alt='AvatarTop')
+            img.mtn(src='@/assets/curso/tema3/3.svg' alt='AvatarTop')
         p.text-center.p-3.mb-5 Debe ser dibujado y firmado por el fabricante.
         .row.mb-3
-      .tarjeta.color-acento-botones.a1.p-4
+      .tarjeta.color-acento-botones.a1.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
-            img.mtn(src='@/assets/curso/tema1/ico4.png' alt='AvatarTop')
+            img.mtn(src='@/assets/curso/tema3/4.svg' alt='AvatarTop')
         p.text-center.p-3.mb-5 Debe estar debidamente sellado.
         .row.mb-5
-      .tarjeta.color-acento-botones.a1.p-4
+      .tarjeta.color-acento-botones.a1.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
-            img.mtn(src='@/assets/curso/tema1/ico5.png' alt='AvatarTop')
+            img.mtn(src='@/assets/curso/tema3/5.svg' alt='AvatarTop')
         p.text-center.p-3.mb-5 Identifica específicamente el nombre del fabricante y el beneficiario.
-      .tarjeta.color-acento-botones.a1.p-4
+      .tarjeta.color-acento-botones.a1.p-4.margint
         .row.justify-content-center.mb-0
           .col-7
-            img.mtn(src='@/assets/curso/tema1/ico6.png' alt='AvatarTop')
+            img.mtn(src='@/assets/curso/tema3/6.svg' alt='AvatarTop')
         p.text-center.p-3.mb-4 La cantidad a pagar debe ser cierta, escrita tanto en cifras como en letras. 
         .row.mb-4
-      .tarjeta.color-acento-botones.a1.p-4.hidd
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center John Doe
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
     p Estas son las partes que intervienen en el pagaré:
-    .row.mb-5.mt-4
+    .row.mb-5.mt-4(data-aos="fade-down")
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -161,7 +156,7 @@
             .tarjeta-flip__img
               .row.justify-content-center.mt-4
                 .col-lg-7
-                  img(src='@/assets/curso/tema3/img3.svg' alt='AvatarTop')
+                  img.peq(src='@/assets/curso/tema3/img3.svg' alt='AvatarTop')
               h4.text-center.mt-4.mb-5 Emisor
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4.text-center.mt-5 Emisor
@@ -174,7 +169,7 @@
             .tarjeta-flip__img
               .row.justify-content-center.mt-4
                 .col-lg-7
-                  img(src='@/assets/curso/tema3/img4.svg' alt='AvatarTop')
+                  img.peq(src='@/assets/curso/tema3/img4.svg' alt='AvatarTop')
               h4.text-center.mt-4.mb-5 Beneficiario
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4.text-center.mt-5 Beneficiario
@@ -187,7 +182,7 @@
             .tarjeta-flip__img
               .row.justify-content-center.mt-4
                 .col-lg-7
-                  img(src='@/assets/curso/tema3/img5.svg' alt='AvatarTop')
+                  img.peq(src='@/assets/curso/tema3/img5.svg' alt='AvatarTop')
               h4.text-center.mt-4.mb-5 Garante
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4.text-center.mt-5 Garante
@@ -197,7 +192,7 @@
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3  Comunicación de la consolidación del negocio  
     p En los ambientes corporativos, es necesario consolidar las herramientas de comunicación empresariales internas, con el fin de fomentar el trabajo en equipo y la resolución de problemas. El reto es entonces consolidar sus múltiples y dispares herramientas de comunicación en una única fuente de verdad en toda la organización, que pueda transformar los equipos de trabajo en una fuente inagotable de colaboración, creatividad y éxito, para que puedan dirigir la energía mental de los empleados hacia actividades que generen ingresos, y para lograrlo se presentan las siguientes recomendaciones:
-    .tarjeta.tarjeta--azul.p-4.mb-5.bag1
+    .tarjeta.tarjeta--azul.p-4.mb-5.bag1(data-aos="fade-up")
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-11
@@ -277,8 +272,7 @@ export default {
   background-color: #EDF8F3!important
 .tarjeta--boton.color-primario:hover *
   color: #12263F
-.tarjeta.color-acento-botones.a1
-  background-color: #D9E2EA
+
 .tarjeta-flip.color-secundario .tarjeta-flip__contenido
   background-color: #F9F7EC
 .tarjeta-flip.color-secundario .tarjeta-flip__img
@@ -294,4 +288,6 @@ export default {
   background-color: #DDE5EC
 .tarjeta-flip.color-secundario .tarjeta-flip__contenido
   background-color: #F9F7EC!important
+.tarjeta.color-acento-botones.a1
+  background-color: #EBF0F4
 </style>

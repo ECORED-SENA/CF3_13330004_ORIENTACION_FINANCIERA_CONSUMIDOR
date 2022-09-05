@@ -11,24 +11,24 @@
       p Un formulario básico de solicitud de negociación consta de los siguientes pasos:
       .row.justify-content-center
         .col-lg-10
-          ImagenInfografica.color-acento-botones.mb-5
+          ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-down")
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema2/img1.svg', alt='Texto que describa la imagen')
 
-            .tarjeta.color-acento-botones.p-3(x="30.8%" y="20.5%" numero="+")
+            .tarjeta.color-acento-botones.p-3.sombra(x="30.8%" y="20.5%" numero="+")
               .h5.mb-2 Tipo de negociación
               p Indique de qué se trata la negociación, debe ser lo más breve posible, no deje datos personales. En este paso, debe elegir una categoría y subcategoría para su negociación.
-            .tarjeta.color-acento-botones.p-3(x="37.5%" y="43%" numero="+")
+            .tarjeta.color-acento-botones.p-3.sombra(x="37.5%" y="43%" numero="+")
               .h5.mb-2 Ubicación
               p Sobre la negociación, elija en qué ciudad quiere que se realice la negociación, indique el número de la organización. Si el caso incluye varias ubicaciones, indique qué ubicaciones se ven afectadas.
-            .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="+")
+            .tarjeta.color-acento-botones.p-3.sombra(x="50%" y="50%" numero="+")
               .h5.mb-2 El problema
               p La situación o el problema: indique también si han sido informados de la situación o no. Por lo general, no se proporcionan listas de miembros a pedido.
-            .tarjeta.color-acento-botones.p-3(x="62.5%" y="43%" numero="+")
+            .tarjeta.color-acento-botones.p-3.sombra(x="62.5%" y="43%" numero="+")
               .h5.mb-2 Documentos de respaldo
               p Documentos de respaldo: se adjuntan la propuesta de negocio consolidada.
-            .tarjeta.color-acento-botones.p-3(x="69%" y="20.5%" numero="+")
+            .tarjeta.color-acento-botones.p-3.sombra(x="69%" y="20.5%" numero="+")
               .h5.mb-2 Contacto
               p Información de contacto: indique el nombre de la persona de contacto, número de teléfono, dirección de correo electrónico y el nombre completo de la empresa en cuestión. 
     .row
@@ -39,13 +39,13 @@
           .col-lg-2
             img.imt2(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')
     p.mt-4 La negociación es una habilidad importante para el profesional moderno y es importante que se reconozca los diferentes tipos de negociación que existen, para que se pueda aplicar estrategias acordes a la necesidad o al contexto:     
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-up")
       .row.justify-content-center(titulo="Negociación distributiva")
         .col-lg-12
           .row.justify-content-center
             .col-lg-4
               img(src='@/assets/curso/tema2/img2.png', alt='Texto que describa la imagen')
-            .col-lg-8
+            .col-lg-8.mt-2
               p.mb-0 Es cuando dos partes negocian sobre un solo producto o tema, como el precio. 
               p Por ejemplo, negociar con un concesionario el precio de un vehículo de segunda mano o regatear con un vendedor ambulante. 
               p Aquí, una parte gana y la otra tiene que dar un paso atrás y sufre una pérdida. Su éxito eventual depende de sus habilidades de negociación distributiva.
@@ -55,7 +55,7 @@
           .row.justify-content-center
             .col-lg-4
               img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
-            .col-lg-8
+            .col-lg-8.mt-2
               p Es uno de los tipos de negociación en los que hay más de un problema que debe someterse al proceso de negociación. Ambas partes ganan algo con la negociación, es un proceso de negociación integrador que asegura una situación en la que todos ganan.
               p ¿Sabe lo que sucede cuando los representantes de un sindicato de empleados se reúnen con la gerencia con sus demandas? Discuten, argumentan, presentan, oponen, convencen, etc. Luego, llegan a un acuerdo sobre salarios y otros beneficios. Esto se llama negociación integradora.
       div(titulo="Negociación multipartes")
@@ -63,7 +63,7 @@
           .row.justify-content-center
             .col-lg-4
               img(src='@/assets/curso/tema2/img4.png', alt='Texto que describa la imagen')
-            .col-lg-8
+            .col-lg-8.mt-2
               p.m-0 Implica que tres o más partes emprendan diversas estrategias de negociación para llevar a casa sus puntos. 
               p Por ejemplo, cuando seis amigos están decidiendo el lugar de la fiesta y discuten sus pros y sus contras, se puede decir que el tipo de negociación es multipartes.
       div(titulo="Negociación en equipo")
@@ -71,16 +71,16 @@
           .row.justify-content-center
             .col-lg-4
               img(src='@/assets/curso/tema2/img5.png', alt='Texto que describa la imagen')
-            .col-lg-8
+            .col-lg-8.mt-2
               p Este tipo de proceso de negociación tiene lugar entre los dos equipos. Por ejemplo, las estrategias de negociación entre los equipos de dos empresas que buscan fusionarse, se denominan negociaciones en equipo.
 
               p Al formar un equipo de negociación, una empresa busca miembros con excelentes habilidades de negociación y capacidades de pensamiento estratégico altamente desarrolladas.
-      div(titulo="Negociación en equipo")
+      div(titulo="Negociación posicional")
         .col-lg-12
           .row.justify-content-center
             .col-lg-4
               img(src='@/assets/curso/tema2/img6.png', alt='Texto que describa la imagen')
-            .col-lg-8
+            .col-lg-8.mt-2
               p Es cuando usted explica la posición en la que se encuentra, desde el principio. Luego, defiende esa posición contra el ataque. 
               p Importante comprender que la negociación posicional considera que ambas partes tienen posturas fijas y se apegan a ellas obstinadamente. Es posible que no consideren el interés de la otra parte ni vean de dónde vienen. La negociación posicional no se considera muy productiva.
     .row
@@ -94,7 +94,7 @@
     p Dicho esto, al escribir una propuesta comercial, se deben tramitar los siguientes pasos:     
     .row.justify-content-center.mt-4
       .col-lg-10
-        #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')
+        #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')(data-aos="fade-down")
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
             button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
@@ -187,15 +187,17 @@ export default {
 .tarjeta.color-acento-botones
   background-color: #D9E2EA
 .tarjeta--azul
-  background-color: #92BFB1
+  background-color: #C8DFD8
 .p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul.acordion__activo
   background-color: #F9F7EC
 .carousel-inner
   padding-left: 170px
   padding-right: 170px
   background-image: url("../assets/curso/tema2/bag1.png") !important
-  background-repeat: no-repeat
-  background-color: #D1E4DE
+  background-repeat: repeat
+  @media screen and ( max-width: 420px)
+    padding-left: 50px
+    padding-right: 50px
 .carousel-control-prev-icon
   background-image: url("../assets/curso/tema2/flecha.svg") !important
   transform: rotate(-180deg)
@@ -203,4 +205,9 @@ export default {
   background-image: url("../assets/curso/tema2/flecha.svg") !important
 .carousel-indicators .active
   background-color: #033F71
+.carousel-control-next, .carousel-control-prev
+  background-color: #FFC631
+  padding: 0px
+.carousel-inner
+  border-radius: 10px
 </style>
