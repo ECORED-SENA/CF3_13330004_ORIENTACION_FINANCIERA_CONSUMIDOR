@@ -197,8 +197,7 @@ export default {
   background-color: #34648C
 .tarjeta-flip.color-primario .tarjeta-flip__contenido
   background-color: #B7C8D6
-.tarjeta.color-primario *
-  color: #12263F
+
 .img-infografica-b.color-primario .img-infografica-b__item__numero i
   color: transparent
 .fa-plus:before

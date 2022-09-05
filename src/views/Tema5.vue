@@ -305,8 +305,7 @@ export default {
 <style lang="sass">
 .tarjeta.color-primario *
   color: #12263F
-.tarjeta.color-primario *
-  background-color: #FEF5E5
+
 .tarjeta-slide.color-primario .tarjeta-slide__img
   background-color: #FEF5E5
 .tarjeta.color-primario
