@@ -12,8 +12,11 @@
             @mouseover="hover = index"
             @mouseleave="hover = null"
             @click="selected = index"
+
           )
-            .indicador--click(v-if="index === 1 && indicador")
+          .indicador--click(v-if="mostrarIndicador")
+
+            
     .col-md-9.col-lg-8(:style="{'z-index':'2'}")
       .tarjeta-botones1.bg-acento-botones.p-3(v-if="selected === 0")
         p.mb-0 <strong>Haga su tarea:</strong> antes de iniciar negociaciones comerciales, siempre investigue. Debe sentarse a la mesa y comprender todo lo que pueda sobre la empresa con la que está tratando y la industria en la que se encuentran. Aprenda los términos y conceptos principales que es probable que usen para que la jerga no lo confunda ni lo intimide. Pero si surge algo que no entiende, está bien pedir una aclaración.
@@ -47,7 +50,7 @@ export default {
     indicador: true,
     selected: 0,
     hover: null,
-
+    mostrarIndicador: true,
     botones: [
       {
         img: require('@/assets/curso/botones-ico-01-a.svg'),

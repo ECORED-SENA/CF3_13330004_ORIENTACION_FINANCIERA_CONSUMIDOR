@@ -111,14 +111,14 @@
           
           .carousel-inner
             .carousel-item.active.mt-5.mb-5
-              .row.justify-content-center
+              .row.form-group 
                 .col-lg-2
                   img.w1(src='@/assets/curso/tema2/ico1.svg', alt='Texto que describa la imagen')
                 .col-lg-10.mt-2
                   h5 Introducción
                   p.mt-4 Debe brindarle al cliente una breve descripción general de lo que hace la empresa. También debe incluir lo que distingue a la empresa de sus pares y por qué es particularmente adecuada para ser el proveedor seleccionado para realizar un trabajo, ya sea que la asignación sea un acuerdo singular o una relación continua.
             .carousel-item.mt-5.mb-5
-              .row.justify-content-center
+              .row.form-group 
                 .col-lg-2
                   img.w1(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen')
                 .col-lg-10.mt-2
@@ -126,7 +126,7 @@
                   p.mt-4 Una vez que haya presentado el negocio y por qué es el candidato adecuado para el cliente al que le está enviando la propuesta, deberá crear una tabla de contenido donde describirá lo que el cliente puede esperar encontrar en el resto de la propuesta, si es una propuesta electrónica, es importante que esté hipervinculada, donde se pueda hacer clic en los tópicos del contenido y se le lleve fácilmente al detalle de la información.
             
             .carousel-item.mt-5.mb-5
-              .row.justify-content-center
+              .row.form-group 
                 .col-lg-2
                   img.w1(src='@/assets/curso/tema2/ico3.svg', alt='Texto que describa la imagen')
                 .col-lg-10.mt-2
@@ -134,14 +134,14 @@
                   p.mt-4.mb-0 Siempre debe incluir un resumen ejecutivo que enmarque las respuestas a las preguntas quién, qué, dónde, cuándo, por qué y cómo que le está proponiendo al cliente potencial.
                   p Es importante tener en cuenta que, a pesar de la palabra “resumen”, esta sección no debe ser un resumen de toda la propuesta comercial. En su lugar, esta sección debería servir como su discurso de promoción o propuesta de valor.
             .carousel-item.mt-5.mb-5
-              .row.justify-content-center
+              .row.form-group 
                 .col-lg-2
                   img.w1(src='@/assets/curso/tema2/ico4.svg', alt='Texto que describa la imagen')
                 .col-lg-10.mt-2
                   h5 Detalles del proyecto
                   p.mt-4 Dentro de este cuerpo, comenzará explicando la recomendación, solución o enfoque para atender al cliente. A medida que profundiza en la explicación, el objetivo principal será transmitir al cliente que está trayendo algo verdaderamente personalizado a su necesidad.
             .carousel-item.mt-5.mb-5
-              .row.justify-content-center
+              .row.form-group 
                 .col-lg-2
                   img.w1(src='@/assets/curso/tema2/ico5.svg', alt='Texto que describa la imagen')
                 .col-lg-10.mt-2
@@ -149,14 +149,14 @@
                   p.mt-4 Esta sección se anidará dentro de la sección de detalles del proyecto, pero es un paso esencial por sí solo.
                   p Aquí describirá los entregables propuestos con descripciones detalladas de cada uno (que pueden incluir cantidades o el alcance de los servicios, según el tipo de negocio).
             .carousel-item.mt-5.mb-5
-              .row.justify-content-center
+              .row.form-group 
                 .col-lg-2
                   img.w1(src='@/assets/curso/tema2/ico6.svg', alt='Texto que describa la imagen')
                 .col-lg-10.mt-2
                   h5 Presupuesto
                   p.mt-4 La sección de presupuesto o fijación de precios es una parte integral de una propuesta comercial, por lo que querrá preparar su estrategia de fijación de precios con anticipación.
             .carousel-item.mt-5.mb-5
-              .row.justify-content-center
+              .row.form-group 
                 .col-lg-2
                   img.w1(src='@/assets/curso/tema2/ico7.svg', alt='Texto que describa la imagen')
                 .col-lg-10.mt-2

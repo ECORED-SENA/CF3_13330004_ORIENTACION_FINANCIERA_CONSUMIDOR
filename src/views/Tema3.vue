@@ -153,7 +153,7 @@
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img.form-group2
               .row.justify-content-center.mt-4
                 .col-lg-7
                   img.peq2(src='@/assets/curso/tema3/img3.svg' alt='AvatarTop')
@@ -166,7 +166,7 @@
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img.form-group2
               .row.justify-content-center.mt-4
                 .col-lg-7
                   img.peq(src='@/assets/curso/tema3/img4.svg' alt='AvatarTop')
@@ -179,7 +179,7 @@
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img.form-group2
               .row.justify-content-center.mt-4
                 .col-lg-7
                   img.peq(src='@/assets/curso/tema3/img5.svg' alt='AvatarTop')
