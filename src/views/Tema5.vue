@@ -124,7 +124,7 @@
             span.visually-hidden Next      
       .col-lg-4.mt-2(data-aos="fade-left")
         img(src='@/assets/curso/tema5/img5.png', alt='Texto que describa la imagen')
-    .row
+    .row.mt-5
       .col-lg-9
         .row
           .col-lg-10

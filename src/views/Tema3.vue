@@ -229,7 +229,7 @@
           .col-lg-11
             .row.mt-4
               .col-md-6.mb-4.mb-md-0.mt-4
-                h5 Dar cabida a una herramienta de comunicación consolidadas
+                h5 Dar cabida a una herramienta de comunicación consolidada:
 
 
                 p.mt-4 Las herramientas de mensajería de correo electrónico, teléfono y equipo están aquí para quedarse. Todavía tiene sentido celebrar reuniones en persona, por ejemplo, porque son excelentes para tratar de resolver grandes problemas y tener discusiones complejas. Los sistemas de mensajería del equipo siempre serán la mejor manera de obtener actualizaciones rápidas o colaboración multifuncional. La consolidación de sus herramientas de comunicación no pretende ser una alternativa a estas herramientas. Más bien, es una oportunidad de trabajar con otras herramientas para una comunicación empresarial más rápida y fluida.
