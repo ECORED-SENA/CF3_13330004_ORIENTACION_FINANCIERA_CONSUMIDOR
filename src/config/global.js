@@ -152,11 +152,11 @@ export default {
       referencia:
         'Llamazares García-Lomas, O. (2004). Aspectos clave de la Negociación Internacional. ',
       link:
-        'https://issuu.com/ricardoanguloleon/docs/aspectos_claves_para_la_negociaci_n ',
+        'https://issuu.com/ricardoanguloleon/docs/aspectos_claves_para_la_negociaci_n',
     },
     {
-      referencia:
-        'Cohen, H. (1988). Todo es negociable. Planeta. https://www.academia.edu/11169755/TODO_ES_NEGOCIABLE ',
+      referencia: 'Cohen, H. (1988). Todo es negociable. Planeta.  ',
+      link: 'https://www.academia.edu/11169755/TODO_ES_NEGOCIABLE',
     },
   ],
   glosario: [

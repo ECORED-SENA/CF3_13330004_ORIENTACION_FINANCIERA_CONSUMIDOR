@@ -123,7 +123,7 @@
                   img.w1(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen')
                 .col-lg-10.mt-2
                   h5 Tabla de contenido
-                  p.mt-4 Una vez que haya presentado el negocio y por qué es el candidato adecuado para el cliente al que le está enviando la propuesta, deberá crear una tabla de contenido donde describirá lo que el cliente puede esperar encontrar en el resto de la propuesta, si es una propuesta electrónica, es importante que esté hiperviculada, donde se pueda hacer clic en los tópicos del contenido y se le lleve fácilmente al detalle de la información.
+                  p.mt-4 Una vez que haya presentado el negocio y por qué es el candidato adecuado para el cliente al que le está enviando la propuesta, deberá crear una tabla de contenido donde describirá lo que el cliente puede esperar encontrar en el resto de la propuesta, si es una propuesta electrónica, es importante que esté hipervinculada, donde se pueda hacer clic en los tópicos del contenido y se le lleve fácilmente al detalle de la información.
             
             .carousel-item.mt-5.mb-5
               .row.justify-content-center

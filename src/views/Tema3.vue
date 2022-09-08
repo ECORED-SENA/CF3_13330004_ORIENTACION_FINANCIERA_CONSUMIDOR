@@ -211,7 +211,7 @@
             .row.mt-4
               .col-md-6.mb-4.mb-md-0.mt-4
                 h5 Mayores tasas de retención: 
-                p.mt-4 Reconozca los talentos más valiosos en su negocios, permita el intercambio de información fluido y centralizado entre ellos, esto aporta al trabajo en equipo, además implemente estrategias para retener a sus mejores empleados.
+                p.mt-4 Reconozca los talentos más valiosos en su negocio, permita el intercambio de información fluido y centralizado entre ellos, esto aporta al trabajo en equipo, además implemente estrategias para retener a sus mejores empleados.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema3/img7.png', alt='Texto que describa la imagen')
@@ -229,7 +229,7 @@
           .col-lg-11
             .row.mt-4
               .col-md-6.mb-4.mb-md-0.mt-4
-                h5 Dar cabida a una herramienta de comunicación consolidadas: 
+                h5 Dar cabida a una herramienta de comunicación consolidadas
 
 
                 p.mt-4 Las herramientas de mensajería de correo electrónico, teléfono y equipo están aquí para quedarse. Todavía tiene sentido celebrar reuniones en persona, por ejemplo, porque son excelentes para tratar de resolver grandes problemas y tener discusiones complejas. Los sistemas de mensajería del equipo siempre serán la mejor manera de obtener actualizaciones rápidas o colaboración multifuncional. La consolidación de sus herramientas de comunicación no pretende ser una alternativa a estas herramientas. Más bien, es una oportunidad de trabajar con otras herramientas para una comunicación empresarial más rápida y fluida.
@@ -274,9 +274,9 @@ export default {
   color: #12263F
 
 .tarjeta-flip.color-secundario .tarjeta-flip__contenido
-  background-color: #F9F7EC
+  background-color: #F9F7EC!important
 .tarjeta-flip.color-secundario .tarjeta-flip__img
-  background-color: #F9F7EC
+  background-color: #F9F7EC!important
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #FFC631
 .slyder-a__bullets__item--active
@@ -286,8 +286,7 @@ export default {
   border: #89AAB8
 .cajon.color-primario
   background-color: #DDE5EC
-.tarjeta-flip.color-secundario .tarjeta-flip__contenido
-  background-color: #F9F7EC!important
+
 .tarjeta.color-acento-botones.a1
   background-color: #EBF0F4
 </style>

@@ -26,7 +26,7 @@
             )
             .bloque-texto-g__texto.p-4
               p.mb-0 La propuesta se gana y se pierde en la introducción, solo se tiene una oportunidad de causar una primera impresión y la introducción en la propuesta es una oportunidad. Por lo general, se lee correctamente y establece el tono para el resto de la propuesta. Si la introducción es un éxito, el resto es fácil.     
-          p.mt-2 La mejor práctica para escribir una introducción efectiva se reduce a un simple consejo: utilizar las palabras del cliente y simplemente describir el problema que se enfrenta. ¿Recordar la parte en la que se descubrió exactamente lo que se quería? Ahora, extraer esas palabras y repetirlas al cliente que leerá la propuesta, se debe ser claro sobre lo que se está proporcionando. Solo se debe tener en cuenta que no se debe hablar de si mismo, la presentación no es el lugar para eso.
+          p.mt-2 La mejor práctica para escribir una introducción efectiva se reduce a un simple consejo: utilizar las palabras del cliente y simplemente describir el problema que se enfrenta. ¿Recordar la parte en la que se descubrió exactamente lo que se quería? Ahora, extraer esas palabras y repetirlas al cliente que leerá la propuesta, se debe ser claro sobre lo que se está proporcionando. Solo se debe tener en cuenta que no se debe hablar de sí mismo, la presentación no es el lugar para eso.
       p La propuesta comercial se caracteriza por tres P, que son: el enunciado del Problema, la solución Propuesta y el Precio, es crucial explicar claramente cómo se sugiere resolver el problema del cliente, para eso tener presente las siguientes recomendaciones:
     .tarjeta.tarjeta--azul.p-4.mb-5.bag1(data-aos="fade-down")
       SlyderA(tipo="b")
@@ -122,7 +122,7 @@
             p Trátelo como una introducción, en lugar de entrar en frío, incluya una carta que describa su negocio y su propuesta, manteniendo un tono amistoso y positivo.
           .tarjeta.color-acento-botones.aq.p-3(x="2%" y="47%" numero="+")
             .h3.mb-2 Índice
-            p Deje que el cliente potencial vea de un vistazo lo que está incluído en el documento y, si es posible, haga clic en esta sección para que pueda saltar fácilmente a cualquier sección que quiera volver a leer.
+            p Deje que el cliente potencial vea de un vistazo lo que está incluido en el documento y, si es posible, haga clic en esta sección para que pueda saltar fácilmente a cualquier sección que quiera volver a leer.
           .tarjeta.color-acento-botones.aq.p-3(x="2%" y="67%" numero="+")
             .h3.mb-2 Resumen ejecutivo
             p Es un texto breve, convirtiéndolo en una descripción general de alto nivel del problema, el resultado esperado, una descripción general de la solución y un llamado a la acción. Asegúrese de ser claro y conciso. Si usa un término que sabe que tendría que explicar a sus amigos que no están en la industria, intente reformularlo para mayor claridad.
@@ -260,7 +260,7 @@
         .row.justify-content-center.mb-0
           .col-7
             img.mtn(src='@/assets/curso/tema1/ico7.png' alt='AvatarTop')
-        p.text-center.p-3 Conozca su valor genuino y aprenda a decir no cuando sea necesarios.
+        p.text-center.p-3 Conozca su valor genuino y aprenda a decir no, cuando sea necesario.
       .tarjeta.color-acento-botones.p-4.margint
         .row.justify-content-center.mb-0
           .col-7

@@ -104,7 +104,7 @@
               .row.justify-content-center
                 .col-lg-10.mt-4
                   img.peq4(src='@/assets/curso/avatar3.svg', alt='Texto que describa la imagen')    
-              h4.text-center.mt-4.text-white Distributiva
+              h4.text-center.mt-4.text-white En equipo
             .tarjeta-flip__contenido.p-4.p-xl-4
               p <strong>Las negociaciones en equipo</strong>  son ese tipo de situaciones de negociación en las que las partes negociadoras están formadas por más de una persona. Estos pueden incluir negociaciones de contratos sindicales o negociaciones comerciales importantes.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
@@ -115,7 +115,7 @@
               .row.justify-content-center
                 .col-lg-12.mt-4
                   img.peq3(src='@/assets/curso/avatar4.svg', alt='Texto que describa la imagen')    
-              h4.text-center.mt-3.text-white Distributiva
+              h4.text-center.mt-3.text-white Multipropósito
             .tarjeta-flip__contenido.p-4.p-xl-4
               p <strong>Las negociaciones multipropósito</strong>  incluyen múltiples partes. Este tipo de situaciones de negociación pueden incluir proyectos municipales o negociaciones internacionales. Las negociaciones multipropósito requieren habilidades de negociación más complejas, pero también hay más oportunidades de encontrar compensaciones y crear valor.
                     
