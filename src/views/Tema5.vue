@@ -55,7 +55,7 @@
                 .tarjeta-slide__img
                   .row.justify-content-center.mt-5
                     .col-lg-10
-                      img.peq(src='@/assets/curso/tema5/img2.svg', alt='Texto que describa la imagen')
+                      img.peq2(src='@/assets/curso/tema5/img2.svg', alt='Texto que describa la imagen')
                   h4.text-center.mt-4 Comunicación ascendente
           .col-sm-6.col-xl-4.mb-4.mb-xl-0
             .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
@@ -69,7 +69,7 @@
                 .tarjeta-slide__img
                   .row.justify-content-center.mt-5
                     .col-lg-9
-                      img.peq(src='@/assets/curso/tema5/img3.svg', alt='Texto que describa la imagen')
+                      img.peq2(src='@/assets/curso/tema5/img3.svg', alt='Texto que describa la imagen')
                   h4.text-center.mt-4 Comunicación descendente
           .col-sm-6.col-xl-4.mb-4.mb-xl-0
             .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
@@ -82,7 +82,7 @@
                 .tarjeta-slide__img
                   .row.justify-content-center.mt-5
                     .col-lg-11
-                      img.peq(src='@/assets/curso/tema5/img4.svg', alt='Texto que describa la imagen')
+                      img.peq2(src='@/assets/curso/tema5/img4.svg', alt='Texto que describa la imagen')
                   h4.text-center.mt-4 Comunicación lateral          
     .row.mt-4
       .col-lg-8
@@ -124,25 +124,30 @@
             span.visually-hidden Next      
       .col-lg-4.mt-2(data-aos="fade-left")
         img(src='@/assets/curso/tema5/img5.png', alt='Texto que describa la imagen')
-    .row.mt-4
-      .col-lg-5
-        .row.t2
-          .col-lg-9
-            h3.mt-2.mb-0 Medios y políticas de clientes 
-          .col-lg-2
-            img.imt3(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')    
+    .row
+      .col-lg-9
+        .row
+          .col-lg-10
+            .row
+              .col-lg-4.fon1
+                p.mt-2.mb-0 <strong> Medios y políticas de clientes </strong>
+              .col-lg-2.tt
+                img.wia2(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')
+     
     p.mt-4 Los clientes quieren que las empresas les atiendan desde las redes sociales, para lo cual deben incorporar este tipo de atenciones en el plan de negocios, incorporando, además, estas tendencias en las políticas de atención al cliente. El manejo de medios requiere de ciertos aspectos que se deben considerar, y se presentan a continuación:
     SlyderB.mb-5.mt-5(:datos="datosSlyder")
     .row.bg6
       .row
         .col-lg-4
-          .row.mt-4
-            .col-lg-8
-              .row.t2
-                .col-lg-7
-                  h3.mt-2.mb-0 Competencias
-                .col-lg-3
-                  img(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')  
+          .row
+            .col-lg-12
+              .row
+                .col-lg-12
+                  .row
+                    .col-lg-4.fon1
+                      p.mt-2.mb-0 <strong> Competencias </strong>
+                    .col-lg-2.tt
+                      img(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')
           p.mt-5 La competencia empresarial se presenta cuando varias empresas compiten con un servicio o productos del mismo tipo, se dirigen al mismo público objetivo para obtener más ventas, aumentar los ingresos y ganar más participación de mercado, buscando a traer el mayor número de clientes posibles mediante algún factor diferenciador que les represente, como el precio, calidad, diseño, ventas, ubicación, entre otros, por esto se hace necesario reconocer los tipos de competencia y su importancia:
         .col-lg-8   
           .row.mb-5

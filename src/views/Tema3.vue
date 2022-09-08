@@ -156,7 +156,7 @@
             .tarjeta-flip__img
               .row.justify-content-center.mt-4
                 .col-lg-7
-                  img.peq(src='@/assets/curso/tema3/img3.svg' alt='AvatarTop')
+                  img.peq2(src='@/assets/curso/tema3/img3.svg' alt='AvatarTop')
               h4.text-center.mt-4.mb-5 Emisor
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4.text-center.mt-5 Emisor

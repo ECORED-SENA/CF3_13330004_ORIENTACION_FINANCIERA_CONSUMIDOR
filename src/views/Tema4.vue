@@ -63,12 +63,14 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/aT1ux5A-s3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Sena. (2021). Técnicas de negociación. [Video] YouTube. 
     .row
-      .col-lg-4
-        .row.t2
-          .col-lg-7
-            h3.mt-2 Tipos y formatos 
-          .col-lg-2
-            img.imt2(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')    
+      .col-lg-9
+        .row
+          .col-lg-6
+            .row
+              .col-lg-4.fon1
+                p.mt-2.mb-0 <strong> Tipos y formatos </strong>
+              .col-lg-2.tt
+                img.wia1(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')
     p.mt-3 En los negocios, existen diferentes tipos de negociación, cada uno necesita enfoques distintos para el éxito, y cuando se preparan para negociar, los profesionales de negocios a menudo se preguntan qué tipos de negociación están disponibles para ellos. Algunas de las más comunes son la negociación distributiva, la negociación integradora, la negociación en equipo y la negociación multipropósito, las cuales se presentan a continuación:
     .row.mb-5(data-aos="fade-up")
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
@@ -78,7 +80,7 @@
             .tarjeta-flip__img
               .row.justify-content-center
                 .col-lg-10.mt-4
-                  img(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen')    
+                  img.peq3(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen')    
               h4.text-center.mt-3.text-white Distributiva
             .tarjeta-flip__contenido.p-4.p-xl-4
               p.mb-0 <strong>En la negociación distributiva,</strong> las partes compiten por la distribución de un fondo fijo de valor. 
@@ -90,7 +92,7 @@
             .tarjeta-flip__img
               .row.justify-content-center
                 .col-lg-12.mt-4
-                  img(src='@/assets/curso/avatar2.svg', alt='Texto que describa la imagen')    
+                  img.peq3(src='@/assets/curso/avatar2.svg', alt='Texto que describa la imagen')    
               h4.text-center.mt-4.text-white Integradora
             .tarjeta-flip__contenido.p-4.p-xl-3
               p <strong>La negociación integradora,</strong>  brinda una de las mayores posibilidades de ganar-ganar. En este tipo de situaciones de negociación, hay más de un tema a negociar, y los negociadores tienen el potencial de hacer concesiones entre los temas y crear valor. En muchos casos, las negociaciones distributivas pueden volverse integradoras si nos tomamos el tiempo para buscar temas adicionales para incluir. 
@@ -101,7 +103,7 @@
             .tarjeta-flip__img
               .row.justify-content-center
                 .col-lg-10.mt-4
-                  img(src='@/assets/curso/avatar3.svg', alt='Texto que describa la imagen')    
+                  img.peq4(src='@/assets/curso/avatar3.svg', alt='Texto que describa la imagen')    
               h4.text-center.mt-4.text-white Distributiva
             .tarjeta-flip__contenido.p-4.p-xl-4
               p <strong>Las negociaciones en equipo</strong>  son ese tipo de situaciones de negociación en las que las partes negociadoras están formadas por más de una persona. Estos pueden incluir negociaciones de contratos sindicales o negociaciones comerciales importantes.
@@ -112,7 +114,7 @@
             .tarjeta-flip__img
               .row.justify-content-center
                 .col-lg-12.mt-4
-                  img(src='@/assets/curso/avatar4.svg', alt='Texto que describa la imagen')    
+                  img.peq3(src='@/assets/curso/avatar4.svg', alt='Texto que describa la imagen')    
               h4.text-center.mt-3.text-white Distributiva
             .tarjeta-flip__contenido.p-4.p-xl-4
               p <strong>Las negociaciones multipropósito</strong>  incluyen múltiples partes. Este tipo de situaciones de negociación pueden incluir proyectos municipales o negociaciones internacionales. Las negociaciones multipropósito requieren habilidades de negociación más complejas, pero también hay más oportunidades de encontrar compensaciones y crear valor.
@@ -120,47 +122,30 @@
     
     p.mt-3 Uno de los últimos tipos de negociación que se puede encontrar también es la negociación de “una sola vez”, en la que las partes no tienen intención de seguir trabajando juntas. Las negociaciones únicas a menudo conllevan el riesgo de un comportamiento poco ético y una negociación dura si las partes creen que no tienen la necesidad de construir una relación de confianza.
     .row
-      .col-lg-5
-        .row.t2
-          .col-lg-7
-            h3.mt-2.mb-0 Métodos y estrategias 
-          .col-lg-2
-            img.imt2(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')
+      .col-lg-9
+        .row
+          .col-lg-8
+            .row
+              .col-lg-4.fon1
+                p.mt-2.mb-0 <strong> Métodos y estrategias </strong>
+              .col-lg-2.tt
+                img.wia3(src='@/assets/curso/tema2/d.svg', alt='Texto que describa la imagen')
     p.mt-4 La negociación empresarial es un mundo de contradicciones, se tiene que ser firme pero flexible, abierto y compartido, pero un poco cauteloso. Hay mucho para entender, pero el estado de ánimo puede ser lo más importante. Se debe apuntar a un resultado mutuamente beneficioso y encontrar que todo el ejercicio es más cómodo, si se siguen estos cinco consejos ayudarán a preparar  una próxima negociación:
-    .row
-      .col-lg-3
-        ImagenInfograficaB.color-primario.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema4/img8.svg', alt='Texto que describa la imagen')
-
-          div.p-4(x="30%" y="6%" tooltip="tooltip de max 35 caracteres" )
-            p.mb-0 <strong>Haga su tarea:</strong> antes de iniciar negociaciones comerciales, siempre investigue. Debe sentarse a la mesa y comprender todo lo que pueda sobre la empresa con la que está tratando y la industria en la que se encuentran. Aprenda los términos y conceptos principales que es probable que usen para que la jerga no lo confunda ni lo intimide. Pero si surge algo que no entiende, está bien pedir una aclaración.
-            p.mb-0 Familiarícese con sus productos o servicios, su industria y sus competidores, para tener idea de sus fortalezas y debilidades, y le ayudará a predecir lo qué es negociable. Las redes sociales son una gran herramienta para este tipo de investigación.
-            p Es importante saber lo que trae a la mesa y por qué preferirían hacer negocios con usted. El dinero no siempre es el factor principal. Tal vez sea más fácil trabajar con usted porque está cerca o es más receptivo. No tenga miedo de promover las cosas que lo distinguen.
-          
-          div.p-4(x="73%" y="23%" tooltip="tooltip de max 35 caracteres" )
-            p.mb-0 <strong>No se quede anclado:</strong>  ser el primero en decir un número puede ser una buena manera de tomar el control de una negociación comercial. Esa primera figura a menudo se convierte en un punto de referencia para el resto de la conversación. Algunos negociadores abrirán con un número extremo, ya sea muy alto o muy bajo. Esperan que la otra parte se ancle por ello.
-            p.mb-0 Si descubre que tiene que alejar a alguien de su posición original, y eso lo hace sentir incómodo, se ha anclado. Esta puede ser una táctica de confrontación y puede que no se adapte a su estilo personal, pero, incluso si no quiere intentarlo, debe ser consciente de ello cuando alguien intente anclarlo.
-          
-          div.p-4(x="90%" y="50%" tooltip="tooltip de max 35 caracteres" )
-            p.mb-0 <strong>Sepa dónde puede comprometerse:</strong>   como propietario de una pequeña empresa, es posible que necesite el trato más que su socio negociador. No deje que el orgullo se interponga en el camino. Decida qué necesita del trato para que valga la pena y prepárese para ceder en todo lo demás. Puede hacer esto estratégicamente.
-            p.mb-0 Identifique oportunidades para ceder en sus términos menos valorados y comuníquelo claramente cuando lo haga. Es más probable que correspondan con sus propias concesiones.
-          div.p-4(x="77%" y="77%" tooltip="tooltip de max 35 caracteres" )
-            p.mb-0 <strong>Apunte a un ganar-ganar (sea amable):</strong>   negociar no se trata de intentar dominar a un oponente, recuerde que está tratando de encontrar un resultado rentable que beneficie a todos. Se ha demostrado científicamente que una mentalidad de ganar-ganar mejora las negociaciones comerciales. Cuando las personas cooperan, sus cerebros liberan oxitocina, una hormona que los hace confiar y compartir.
-            p.mb-0 Por otro lado, una persona que pierde una negociación agresiva se siente agredida y su cerebro libera cortisol. Esto los vuelve negativos y potencialmente resentidos, lo que perjudica las posibilidades de llegar a buenos negocios, recuerde siempre que ambas partes pueden ganar y no subestimes el poder de ser amable.
-          div.p-4(x="30%" y="94%" tooltip="tooltip de max 35 caracteres" )
-            p.mb-0 <strong>Tener un plan B:</strong>    tenga presente qué hará si las negociaciones comerciales fallan. Tenga una posición fuerte y realista al respecto desde el principio. Una vez que tenga un plan B, guárdelo para usted. Si la otra parte sabe demasiado sobre sus alternativas, sabrá cuánto puede presionar.
-            p.mb-0 Siempre que conozca la fuerza de su posición y respete a la otra parte, tendrá un buen comienzo. 
-                               
+    .botones-hover.mb-4
+      Botones(data-aos="fade-down")                     
     p.mt-2 Con la práctica se mejorarán los métodos y estrategias de negociación, y después de un tiempo, negociar se convertirá en una segunda naturaleza, y los negocios serán mejores gracias a ello.
 
+    
 </template>
 
 <script>
+import Botones from '../components/Botones.vue'
+
 export default {
   name: 'Tema4',
-  components: {},
+  components: {
+    Botones,
+  },
   data: () => ({
     // variables de vue
   }),
